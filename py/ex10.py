@@ -1,0 +1,10 @@
+s=input("Enter string")
+l=list(s)
+n=len(l)
+l1=[]
+l1.append(l[0])
+l1.append(l[1])
+l1.append(l[n-2])
+l1.append(l[n-1])
+s="".join(l1)
+print(s)
